@@ -1,20 +1,24 @@
 **⚙️ How to Run the Project**
+
 1️⃣ Start Kafka on EC2
+
 Install Kafka on EC2
 Start Zookeeper + Kafka Broker
 Create Kafka topic
+
 2️⃣ Run Producer (Local / Laptop)
-Copy code
 Bash
 cd producer
 pip install -r requirements.txt
 python kafka_producer_realtime.py
+
 3️⃣ Run Consumer (EC2) → Store data in S3
 Copy code
 Bash
 cd consumer
 pip install -r requirements.txt
 python kafka_consumer_to_s3.py
+
 4️⃣ Run Glue Crawler
 AWS Glue crawler scans the S3 data
 Creates a table in AWS Glue Data Catalog
