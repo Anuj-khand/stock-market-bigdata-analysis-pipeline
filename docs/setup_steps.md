@@ -55,12 +55,17 @@ Stock-wise comparisons
 **📊 Key Analytics Performed**
 
 Total stock events ingested
+
 Average closing price by stock symbol
+
 Total traded volume by stock
+
 High/Low volatility comparison
+
 Time-series trends for stock movement
 
 **💰 Cost Note**
 
 After pipeline completion, EC2 can be stopped to avoid additional costs.
+
 S3 + Glue + Athena metadata will remain available for querying and dashboards.
