@@ -56,6 +56,8 @@ Producer → Kafka (EC2) → Consumer → S3 → Glue Crawler → Athena → Qui
     ├── architecture.png
     └── dashboard_preview.png
 
+
+
 **Sample Kafka Event (JSON)**
 Json
 {
